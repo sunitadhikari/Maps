@@ -12,3 +12,4 @@ console.log(`my name is sunita my age is 23`);
 let firstName  = "sunita";
 let lastName = "Adhikrai";
 console.log("my name is " + firstName + " my last name is "  + lastName);
+console.log(`my name is ${firstName}.my last name is ${lastName}`);

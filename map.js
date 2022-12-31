@@ -13,3 +13,7 @@ let firstName  = "sunita";
 let lastName = "Adhikrai";
 console.log("my name is " + firstName + " my last name is "  + lastName);
 console.log(`my name is ${firstName}.my last name is ${lastName}`);
+
+let a = 20;
+let b = 30;
+console.log(`fifty is  ${(a + b)}  and\nnot  ${(2*a+b)}.`)

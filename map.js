@@ -1,12 +1,6 @@
-const bioData={
-    name:"Sunita",
-    age :26,
-    deg:"bachlor",
-    hobb:{
-        first:'playing',
-        sec:'youtune',
-    }
+var sum = function(){
+    var a = 5;
+    var b = 10;
+    return a+b;
 }
-
-let{name,age,deg}=bioData;
-console.log(`my name is ${bioData} i love making ${hobb.sec}`);
+console.log(sum());

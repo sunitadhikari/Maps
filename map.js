@@ -4,4 +4,4 @@ const bioData={
     deg:"bachlor",
 }
 let{name,age,deg}=bioData;
-console.log(`my name is ${bioData}`)
+console.log(`my name is ${bioData}`);

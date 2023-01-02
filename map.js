@@ -2,7 +2,7 @@
 //     console.log(a*b);
 // }
 // mult(4,6);
-
-function mult(a,b=3){
-    console.log(a*b);
+const mult = (a, b=3) =>{
+    console.log(`the mult of two no is ${a*b}`);
 }
+mult(5);

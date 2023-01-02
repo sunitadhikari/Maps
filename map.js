@@ -1,9 +1,5 @@
-function sum(...inputs){
-    console.log(inputs);
-    let total = 0;
-    for(let i of inputs){
-       total += i;
-    }
-    console.log(total);
+function sum(a,b,c){
+    console.log(a+b+c);
 }
-sum(1,2,3,4,5,6); 
+sum(1,2,3);
+var arrVal=[1,2,3];

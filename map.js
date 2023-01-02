@@ -1,8 +1,4 @@
-// function mult(a,b){
-//     console.log(a*b);
-// }
-// mult(4,6);
-const mult = (a, b=3) =>{
-    console.log(`the mult of two no is ${a*b}`);
+function sum(...inputs){
+    console.log(inputs);
 }
-mult(5);
+sum(1,2,3,4,5,6);

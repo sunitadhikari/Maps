@@ -1,7 +1,4 @@
-
-    let a =5;
-    // let b=10;
-    const sum= (b) =>  a+b 
-    console.log(sum(15));
-
-
+function mult(a,b){
+    console.log(a*b);
+}
+mult(4);

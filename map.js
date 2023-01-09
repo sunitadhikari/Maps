@@ -1,14 +1,28 @@
+// class hello{
+//     constructor(x, y){
+//         this.x=x;
+//         this.y=y;
+//     }
+// }
+// const a=new hello(10, 30);
+// console.log(a.x);
+// console.log(a.y);
 class Students{
-constructor(name,age){
-    this.myname=name;
-}
-    biodata(){
-        console.log('Hi i am in class');
-        // console.log('Hi i s');
+    constructor(name,age){
+        this.myname=name;
+        this.myage=age;
+    }
+     biodata(){
+        console.log(`hi i am a class ${this.myname} is ${this.myage}`);
     }
 }
-let obj1=new Students();
-// let obj2=new Students();
-obj1.biodata();
+    class player extends Students{
+    constructor(game){
+        this.mygame=game;
+    }
+}
+let a=new Students('sunita', 22)
+a.biodata();
+a.biodata();
 
-// obj2.biodata();
+a.biodata();

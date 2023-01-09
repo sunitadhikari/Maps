@@ -17,8 +17,9 @@ class Students{
     }
 }
     class player extends Students{
-    constructor(game){
+    constructor(game,name,age){
         this.mygame=game;
+        super(name,age);
     }
 }
 let a=new Students('sunita', 22)

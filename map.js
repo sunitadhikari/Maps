@@ -1,12 +1,7 @@
-let a=new Promise(resolve, reject)=>{
-    setTimeout(()=>{
-        resolve("27 Deg")
-    })
-})
-async function sunita(){
-    return 5
+async function example(){
+    console.log("start");
+    const result = await someAsyncFunction();
+    console.log(`result is ${result}`);
+    console.log("end");
 }
-sunita().then((x)=>{
-    alert(x)
-}
-)
+example();

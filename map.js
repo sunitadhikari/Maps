@@ -1,7 +1,10 @@
-async function getData(){
-    return fetch(5)
-    .then(response=> response.json())
-    .catch(error => {
-        console.log(error);
-    })
+async function late(){
+    const promise = new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("hello its resolve");
+        }, 2000);
+    });
+ const message =await promise;
 }
+
+ delayesHello();

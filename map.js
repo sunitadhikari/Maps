@@ -1,7 +1,7 @@
-async function example(){
-    console.log("start");
-    const result = await someAsyncFunction();
-    console.log(`result is ${result}`);
-    console.log("end");
+async function getData(){
+    return fetch(5)
+    .then(response=> response.json())
+    .catch(error => {
+        console.log(error);
+    })
 }
-example();

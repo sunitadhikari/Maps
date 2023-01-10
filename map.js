@@ -1,6 +1,4 @@
-async function getData(){
-    const rollnodata = await proj1;
-    console.log(rollnodata);
-    const biodatas=await getBiodata();
+async function sunita(){
+    return 5
 }
-getData();
+sunita().then((x=))

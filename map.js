@@ -1,5 +1,5 @@
 async function late(){
-    const promise = new Promise((resolve,
+    const promise = new Promise((reso  
         
           
         

@@ -36,4 +36,7 @@ body{
 .header h2{
     color: #222;
     font-family: var(--my-btn-font);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
 }

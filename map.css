@@ -60,6 +60,8 @@ body{
     border-radius: 5px;
     display: block;
     font-family: var(--myfont);
+    font-size: 14px;
+    padding:12px;
 }
 .form .btn{
     background: var(--lg-color);

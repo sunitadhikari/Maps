@@ -73,6 +73,11 @@ body{
 .form-control.error input{
     border-color:#cc34ee
 }
+.form-control i{
+    position:absolute;
+    right:8px;
+    top:38px;
+}
 .form .btn{
     background: var(--lg-color);
     border-radius:6px;

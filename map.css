@@ -94,7 +94,7 @@ body{
     visibility: hidden;
 }
 .form-control.error small{
-    visibility: visible;
+    visibility: hidden;
 }
 .form .btn{
     background: var(--lg-color);

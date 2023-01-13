@@ -25,12 +25,12 @@ const validate = ()=>{
     }else{
         setSuccessMsg(username);
     }
-    if(username===""){
-        setErrormsg(username, 'username cannot be blank');
+    if(email=== ""){
+        setErrormsg(email, 'email cannot be blank');
     }
-    else if(username.length <= 2){
-        setErrormsg(username, 'username min in 3 char');
+    else if(isEmail()){
+        setErrormsg(email, 'email min in 3 char');
     }else{
-        setSuccessMsg(username);
+        setSuccessMsg(email);
     }
 }

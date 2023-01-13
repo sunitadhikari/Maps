@@ -45,4 +45,6 @@ const validate = ()=>{
 function setErrorMsg(input, errormsgs){
 const formControl= input.parentElement;
 const small =formControl.querySelector('small');
+formControl.className="form-control error";
+small.innerText=errormsgs;
 }

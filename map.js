@@ -10,27 +10,39 @@ form.addEventListener('submit', (event) =>{
     event.preventDefault();
     ValidityState();
 })
+const isEmail = (emailVal)=>{
+    var atSymbol= emailVal.indexOf("@");
+    if(atSymbol<1)return false;
+    var dot=emailVal. lastIndexOf('.');
+    if(dot<=atSymbol +2) return false;
+    if(dot === emailVal.length -1) return false;
+    return true;
+}
 const validate = ()=>{
-    const username=username.value.trim();
-    const email=email.value.trim();
-    const phone=phone.value.trim();
-    const password=password.value.trim();
-    const cpassword=cpassword.value.trim();
+    const usernameVal =username.value.trim();
+    const emailVal =email.value.trim();
+    const phoneVal =phone.value.trim();
+    const passwordVal =password.value.trim();
+    const cpasswordVal =cpassword.value.trim();
 
-    if(username===""){
-        setErrormsg(username, 'username cannot be blank');
+    if(usernameVal===""){
+        setErrorMsg(username, 'username cannot be blank');
     }
-    else if(username.length <= 2){
-        setErrormsg(username, 'username min in 3 char');
+    else if(usernameVal.length <= 2){
+        setErrorMsg(username, 'username min in 3 char');
     }else{
         setSuccessMsg(username);
     }
-    if(email=== ""){
-        setErrormsg(email, 'email cannot be blank');
+    if(emailVal=== ""){
+        setErrorMsg(email, 'email cannot be blank');
     }
-    else if(isEmail()){
-        setErrormsg(email, 'email min in 3 char');
+    else if(isEmail(emailVal)){
+        setErrorMsg(emailVal, 'Not a valid Email');
     }else{
         setSuccessMsg(email);
     }
+}
+function setErrorMsg(input, errormsgs){
+const formControl= input.parentElement;
+const small =formControl.querySelector('small');
 }

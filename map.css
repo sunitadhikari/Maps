@@ -113,7 +113,7 @@ body{
     transition:all 1s ease;
 }
 .form .btn:hover{
-    background: linear-gradient(to right, #3bc9af, #5f6a99);
+    background: linear-gradient(to right, #37baa2, #5f6a99);
 }
 @media(max-width:998px){
     .container{
